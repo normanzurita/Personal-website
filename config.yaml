@@ -1,4 +1,4 @@
-baseURL: http://example.org/
+baseURL: https://normanzurita.github.io/hugo-in-action-chap-2/
 languageCode: en-us 
 title: Acme Corporation 
 theme: Eclectic 
