@@ -1,3 +1,10 @@
+---
+menu:
+  footer:
+    name: Privacy Policy
+    weight: 300
+---
+
 Privacy Policy
 
 Last updated __August 19, 2019__
