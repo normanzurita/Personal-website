@@ -39,3 +39,11 @@ params:
     recentCount: 7
   - title: Contact Us
     contact: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+enableEmoji: true
