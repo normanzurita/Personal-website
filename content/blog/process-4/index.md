@@ -1,6 +1,7 @@
 ---
 title: Our Manufacturing Process Part IV
 date: "2019-01-04T00:00:00Z"
+series: [manufacturing]
 ---
 
 A cutting tool has one or more sharp cutting edges and is made of a material that is harder than the work material. The cutting edge serves to separate chip from the parent work material. Connected to the cutting edge are the two surfaces of the tool:

@@ -1,5 +1,6 @@
 ---
 title: Our Manufacturing Process Part I
+series: [manufacturing]
 date: "2019-01-01T00:00:00Z"
 tags: [manufacturing]
 categories: [line, manufacturing]
