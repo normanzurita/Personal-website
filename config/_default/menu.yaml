@@ -3,7 +3,7 @@ main:
     name: About
     url: /about
     weight: 100
-    post: Out facinating origins
+    post: Our facinating origins
   - identifier: contact
     name: Contact
     url: /contact
