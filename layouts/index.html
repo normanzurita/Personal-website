@@ -3,21 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  {{if $.Description}}
-  <meta name="description" content="{{$.Description}}">{{end}}
+  {{with .Description}}<meta name="description" content="{{.}}">{{end}}
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./index.css">
-  {{$title := default site.Title $.Title}}
-  {{if $title}}<title>{{$title}}</title>{{end}}
+  {{$title := default site.Title .Title}}
+  {{with $title}}<title>{{.}}</title>{{end}}
 </head>
 
 <body class="home">
-  <section>
+  <section id="intro">
     <img src="./image/logo.svg" alt="Acme Logo" width="64" />
-    {{if $title}}<h1>{{$title}}</h1>{{end}}
-    {{if $.Param "subtitle"}}<h2>{{$.Param "subtitle"}}</h2>{{end}}
-    <a href="./about">Explore</a>
+    {{with $title}}<h1>{{.}}</h1>{{end}}
+    {{with .Param "subtitle"}}<h2>{{. | humanize | markdownify}}</h2>{{end}}
+    <a href="{{ref . (.Param "explore")}}">Explore</a>
   </section>
+  
+  <section id="description">
+    {{.Content}}
+  </section>
+
   <footer>
     <a href="./blog" class="ref">Blog</a>
     <a href="./news" class="ref">News</a>
