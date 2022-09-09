@@ -16,7 +16,7 @@
     {{block "header" .}}
       <header>
       <a href="{{ site.BaseURL | relLangURL }}">
-       <img src="{{partialCached "logo.svg" $ "nothing"}}" alt="Acme Logo" height="36" width="48" />
+      <img src="{{partialCached "logo.svg" $ "nothing"}}" alt="Acme Logo" height="36" width="48" />
           Acme Corporation
       </a>
       {{ partialCached "menu.html" (dict "Menu" site.Menus.main "Button" true) "main" }}

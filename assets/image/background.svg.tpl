@@ -5,14 +5,14 @@
   <style type="text/css">
 	.st0{opacity:0.15;clip-path:url(#SVGID_2_);fill:url(#XMLID_2_);}
 	.st1{clip-path:url(#SVGID_2_);}
-	.st2{fill:none;stroke:#4f46e5;stroke-width:4;stroke-miterlimit:10;opacity: 0.2}
-	.st3{fill:none;stroke:#4f46e5;stroke-width:4;stroke-miterlimit:10;opacity: 0.1}
-	.st4{fill:none;stroke:#4f46e5;stroke-width:4;stroke-miterlimit:10;opacity: 0.15}
-	.st5{fill:none;stroke:#4f46e5;stroke-width:4;stroke-miterlimit:10;opacity: 0.07}
-	.st6{fill:#4f46e5; opacity: 0.2}
-	.st7{fill:#4f46e5; opacity: 0.1}
-	.st8{fill:#4f46e5; opacity: 0.15}
-	.st9{fill:#4f46e5; opacity: 0.07}
+	.st2{fill:none;stroke:{{site.Params.color | default "#4f46e5"}};stroke-width:4;stroke-miterlimit:10;opacity: 0.2}
+	.st3{fill:none;stroke:{{site.Params.color | default "#4f46e5"}};stroke-width:4;stroke-miterlimit:10;opacity: 0.1}
+	.st4{fill:none;stroke:{{site.Params.color | default "#4f46e5"}};stroke-width:4;stroke-miterlimit:10;opacity: 0.15}
+	.st5{fill:none;stroke:{{site.Params.color | default "#4f46e5"}};stroke-width:4;stroke-miterlimit:10;opacity: 0.07}
+	.st6{fill:{{site.Params.color | default "#4f46e5"}}; opacity: 0.2}
+	.st7{fill:{{site.Params.color | default "#4f46e5"}}; opacity: 0.1}
+	.st8{fill:{{site.Params.color | default "#4f46e5"}}; opacity: 0.15}
+	.st9{fill:{{site.Params.color | default "#4f46e5"}}; opacity: 0.07}
   </style>
   <g id="BACKGROUND">
     <g>
