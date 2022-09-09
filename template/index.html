@@ -1,0 +1,155 @@
+<h1>Hugo Templates</h1>
+<h2>Variables</h2>
+<b>Custom Variables</b> <br>
+Site Title: Acme Corporation <br>
+Page Title: Template Page <br>
+<br>
+<b>Data Types</b> <br>
+Integer: 2 <br>
+Float: 3.14 <br>
+Boolean: false <br>
+String: hello <br>
+<br>
+Slice: [foo bar buzz] <br>
+Dict: map[h:20 key1:val1 w:10] <br>
+Time: 2020-01-01 00:00:00 +0800 +0800 <br>
+<br>
+Scratch: {map[message:Hello] {{0 0} 0 0 0 0}} <br>
+Getter: Hello <br>
+Updated: Hello World <br>
+Dict: map[english:Hello World french:Bonjour le monde] <br>
+<h2> Functions </h2>
+<b>Boolean Functions</b>
+5 &lt; 3 : false <br>
+5 > 3 : true <br>
+5 &ge; 3 : true <br>
+5 &le; 3 : false <br>
+5 = 3 : false <br>
+5 &ne; 3 : true <br>
+<br>
+<b>Logical Functions</b>
+true and false : false <br>
+true or false : true <br>
+not true : false <br>
+<br>
+<b>Arithmetic Functions</b>
+2 + 3 : 5 <br>
+2 - 3 : -1 <br>
+2 x 3 : 6 <br>
+2 &div; 3 : 0 <br>
+2 &div; 3 : 0.6666666666666666 <br>
+2 % 3 : 2 <br>
+2 % 3? : false <br>
+<br>
+<b>Nested Functions</b>
+5/(2 + (3 x 2.0)) : 0.625 <br>
+<br>
+<b>Piped Functions</b>
+5/(2 + (3 x 2.0)) : 0.625 <br>
+<br>
+<b>Nested + Piped Hybrid</b>
+5/(2 + (3 x 2.0)) : 0.625 <br>
+<h2> Conditionals </h2>
+<b>If</b>
+false is false.
+<br>
+<br>
+<b>With</b>
+test is the value of the condition
+<br>
+<br>
+<b>Cond</b>
+page
+<h2>Loops</h2>
+<b>All website pages:</b>
+<ul>
+<li> About Us</li>
+<li> manufacturing</li>
+<li> Our Manufacturing Process Part IV</li>
+<li> Series</li>
+<li> circle</li>
+<li> manufacturing</li>
+<li> manufacturing</li>
+<li> Our Manufacturing Process Part III</li>
+<li> Tags</li>
+<li> Our Manufacturing Process Part II</li>
+<li> square</li>
+<li> line</li>
+<li> Our Manufacturing Process Part I</li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> Acme Corporation</li>
+<li> Building Squares</li>
+<li> Categories</li>
+<li> Circle</li>
+<li> circle</li>
+<li> Curve</li>
+<li> Design</li>
+<li> general</li>
+<li> line</li>
+<li> product</li>
+<li> public</li>
+<li> Sample data driven page using eclectic.</li>
+<li> shape</li>
+<li> shape</li>
+<li> Shaper</li>
+<li> square</li>
+<li> Square License</li>
+<li> style</li>
+<li> Template Page</li>
+<li> triangle</li>
+<li> Tropical Triangles</li>
+</ul>
+<b>Range context</b>
+<ul>
+<li> About Us @ Acme Corporation</li>
+<li> manufacturing @ Acme Corporation</li>
+<li> Our Manufacturing Process Part IV @ Acme Corporation</li>
+<li> Series @ Acme Corporation</li>
+<li> circle @ Acme Corporation</li>
+<li> manufacturing @ Acme Corporation</li>
+<li> manufacturing @ Acme Corporation</li>
+<li> Our Manufacturing Process Part III @ Acme Corporation</li>
+<li> Tags @ Acme Corporation</li>
+<li> Our Manufacturing Process Part II @ Acme Corporation</li>
+<li> square @ Acme Corporation</li>
+<li> line @ Acme Corporation</li>
+<li> Our Manufacturing Process Part I @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> @ Acme Corporation</li>
+<li> Acme Corporation @ Acme Corporation</li>
+<li> Building Squares @ Acme Corporation</li>
+<li> Categories @ Acme Corporation</li>
+<li> Circle @ Acme Corporation</li>
+<li> circle @ Acme Corporation</li>
+<li> Curve @ Acme Corporation</li>
+<li> Design @ Acme Corporation</li>
+<li> general @ Acme Corporation</li>
+<li> line @ Acme Corporation</li>
+<li> product @ Acme Corporation</li>
+<li> public @ Acme Corporation</li>
+<li> Sample data driven page using eclectic. @ Acme Corporation</li>
+<li> shape @ Acme Corporation</li>
+<li> shape @ Acme Corporation</li>
+<li> Shaper @ Acme Corporation</li>
+<li> square @ Acme Corporation</li>
+<li> Square License @ Acme Corporation</li>
+<li> style @ Acme Corporation</li>
+<li> Template Page @ Acme Corporation</li>
+<li> triangle @ Acme Corporation</li>
+<li> Tropical Triangles @ Acme Corporation</li>
+</ul>
+<h2>Debugging</h2>
+&hugolib.SiteInfo{Authors:page.AuthorList(nil), Social:hugolib.SiteSocial(nil), hugoInfo:hugo.Info{CommitHash:"1798bd3f", BuildDate:"2021-12-23T15:33:34Z", Environment:"production"}, title:"Acme Corporation", RSSLink:"https://normanzurita.github.io/hugo-in-action-chap-2/index.xml", Author:map[string]interface {}{"email":"contact@example.org", "facebook":"https://facebook.com/example", "hours":"**Mon-Fri:** 9:00AM - 6:00PM, ET", "location":"New York", "name":"Acme Corporation", "phone":"(999) 999-9999", "twitter":"https://twitter.com/example"}, LanguageCode:"en-us", Copyright:"", permalinks:map[string]string{}, LanguagePrefix:"", Languages:langs.Languages{(*langs.Language)(0xc00011ad00)}, BuildDrafts:false, canonifyURLs:false, relativeURLs:false, uglyURLs:(func(page.Page) bool)(0x163ea20), owner:(*hugolib.HugoSites)(0xc000455550), s:(*hugolib.Site)(0xc000762d80), language:(*langs.Language)(0xc00011ad00), defaultContentLanguageInSubdir:false, sectionPagesMenu:""}
