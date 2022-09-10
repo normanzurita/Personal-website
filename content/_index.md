@@ -26,6 +26,8 @@ testimonials:
 
 
 type: modern
+cascade:
+  type: modern
 ---
 
 Acme is the **best**
