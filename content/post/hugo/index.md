@@ -6,4 +6,5 @@ katex: math
 math: true
 date: 2022-09-10 00:00:00+0000
 image: cover.png
+draft: true
 ---

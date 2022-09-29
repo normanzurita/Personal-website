@@ -1,10 +1,9 @@
 ---
-title: "Cs50"
-tags: [unknown]
-categories: [general]
-date: 2022-09-28T23:15:25-05:00
-draft: true
-image: cover.jpg
+title: "[Project] Banking System"
+tags: [Java, JDBC, SQL, CRUD]
+categories: [Projects]
+date: 2022-09-29T00:18:17-05:00
+draft: false
 ---
 
 WIP

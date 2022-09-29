@@ -1,10 +1,9 @@
 ---
-title: "Cs50"
-tags: [unknown]
-categories: [general]
-date: 2022-09-28T23:15:25-05:00
-draft: true
-image: cover.jpg
+title: "[Project] Personal Website"
+tags: [HTML, CSS, Javascript, Hugo, SSG, Markdown]
+categories: [Projects]
+date: 2022-09-29T00:19:18-05:00
+draft: false
 ---
 
 WIP

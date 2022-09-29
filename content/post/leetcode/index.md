@@ -6,6 +6,7 @@ katex: math
 math: true
 date: 2022-09-11 00:00:00+0000
 image: cover.jpg
+draft: true
 ---
 
 Here are some of the solutions ordered by pattern.
