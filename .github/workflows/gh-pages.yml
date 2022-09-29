@@ -22,7 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=https://normanzurita.github.io/hugo-in-action-chap-2/
+        run: hugo --minify --baseURL=https://normanzurita.github.io/Personal-website/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
