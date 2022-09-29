@@ -1,4 +1,4 @@
-Hugo In Action
+My Website
 ===============
 
-This code corresponds to section **2.3.3** of Hugo in Action.
+Personal website built with [Hugo](https://gohugo.io/).
